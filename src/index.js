@@ -14,7 +14,7 @@ const Application = () => {
   // your code here
 
   const reset = () => {
-    console.log("reset");
+    setName('');
     // your code here
   };
 
