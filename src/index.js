@@ -22,7 +22,7 @@ const Application = () => {
     <main>
       <input placeholder="Type your name" value = {name} onChange={(event) => setName(event.target.value)}/>
       <Button buttonText={"RESET"} clickButton={reset}/>
-      <h1>Hello {name}</h1>
+      {name && <h1>Hello {name}</h1>}
     </main>
   );
 };
